@@ -1,0 +1,90 @@
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+/* ? Technical class */
+._container {
+   max-width: 1046px;
+   margin: 0 auto;
+   padding: 0 15px;
+   box-sizing: content-box;
+}
+
+._ibg {
+   position: relative;
+}
+
+._ibg img {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+}
+
+body {
+   height: 100%;
+   background: #FAFAFA;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   letter-spacing: 0.2px;
+   font-weight: 500;
+   color: #252B42;
+   font-family: 'Montserrat';
+}
+
+/* * ////////////PAGE классы элементов//////////// --> */
+.page {
+   flex: 1 1 auto;
+}
+
+.page__main-block {}
+
+.page__services {
+   position: relative;
+   margin: -111px 0px 0px 0px;
+   z-index: 2;
+}
+
+.page__advantages {}
+
+.page__practice {}
+
+.page__whowewre {}
+
+.page__clients:not(:last-child) {
+   margin: 0px 0px 10px 0px;
+}
+
+.page__subscribe {}
+
+.page__getintouch {}
+
+.page__contact {}
+
+/* * ////////////HEADER-BLOCK//////////// --> */
+
+.header-block {
+   text-align: center;
+}
+
+.header-block__title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: calc(57/40*100%);
+}
+
+.header-block__title :not(:last-child) {
+   margin: 0px 0px 10px 0px;
+}
+
+.header-block__subtitle {
+   font-size: 14px;
+   line-height: calc(20/14*100%);
+   color: #737373;
+}
